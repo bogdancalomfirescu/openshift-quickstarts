@@ -27,15 +27,12 @@
    -->
   <proxies>
     <!--  Specification for one proxy, to be used in connecting to the network. -->
-
-    <proxies>
-        <proxy>
-            <active>true</active>
-            <protocol>http</protocol>
-            <host>proxy-internet.internal.fr</host>
-            <port>3128</port>
-        </proxy>
-    </proxies>
+    <proxy>
+        <active>true</active>
+        <protocol>http</protocol>
+        <host>proxy-internet.internal.fr</host>
+        <port>3128</port>
+    </proxy>
   </proxies>
   
   <profiles>
